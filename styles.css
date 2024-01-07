@@ -1,0 +1,25 @@
+body{
+
+    background-image: linear-gradient(to bottom,white 0%,white 67.75%,black 67.8%,beige 67.87%,beige 100% );  
+    min-height:100vh;
+}
+.element {
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 3px 5px beige ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+h1::after {
+    content: "";
+    display: block;
+    width: 2500px; /* Adjust the width of the bar */
+    height: 1px; /* Adjust the height/thickness of the bar */
+    background-color: rgb(186, 186, 186); /* Color of the bar */
+    margin: 10px auto 0; /* Adjust the margin to position the bar */
+}
